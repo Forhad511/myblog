@@ -1,0 +1,106 @@
+var map = {
+	"./11sale.svg": 85,
+	"./404.svg": 86,
+	"./agentship1.svg": 87,
+	"./agentship2.svg": 140,
+	"./automobile.svg": 141,
+	"./baby_items.svg": 142,
+	"./bank_receipt.svg": 88,
+	"./beauty_product.svg": 143,
+	"./bkash.svg": 89,
+	"./bridal.svg": 144,
+	"./child-shoe.svg": 145,
+	"./clothing.svg": 146,
+	"./complete.svg": 90,
+	"./contact.svg": 91,
+	"./customer.svg": 147,
+	"./electronics.svg": 148,
+	"./empty.svg": 51,
+	"./expand.svg": 149,
+	"./facebook.svg": 150,
+	"./facebook_round.svg": 92,
+	"./failed.svg": 93,
+	"./food.svg": 151,
+	"./gift.svg": 94,
+	"./grocery.svg": 152,
+	"./handbag.svg": 153,
+	"./headphone.svg": 154,
+	"./health.svg": 155,
+	"./home_imporvements.svg": 156,
+	"./home_improvements.svg": 157,
+	"./imageLoading.svg": 158,
+	"./industry.svg": 159,
+	"./instagram.svg": 95,
+	"./invoice.svg": 160,
+	"./kid.svg": 161,
+	"./laptop.svg": 162,
+	"./linkedin.svg": 96,
+	"./login.svg": 97,
+	"./logo.svg": 163,
+	"./logo_vertical.svg": 164,
+	"./logo_white.svg": 165,
+	"./mail_round.svg": 166,
+	"./mens_clothing.svg": 167,
+	"./mobile.svg": 168,
+	"./mobile_app.svg": 169,
+	"./mouse.svg": 170,
+	"./nagad.svg": 98,
+	"./nav_dw.svg": 171,
+	"./necklace.svg": 172,
+	"./nodata.svg": 99,
+	"./offers.svg": 173,
+	"./order_process.svg": 174,
+	"./payment.svg": 175,
+	"./pending.svg": 100,
+	"./perfume.svg": 176,
+	"./pet.svg": 177,
+	"./playstore.svg": 178,
+	"./review.svg": 179,
+	"./seminar.svg": 180,
+	"./share.svg": 181,
+	"./shoes.svg": 182,
+	"./shop.svg": 183,
+	"./shopping.svg": 184,
+	"./sport.svg": 185,
+	"./suggestion.svg": 186,
+	"./sunglass.svg": 187,
+	"./test2.svg": 188,
+	"./test_logo.svg": 189,
+	"./tools.svg": 190,
+	"./tracking.svg": 191,
+	"./travel.svg": 192,
+	"./twitter_round.svg": 193,
+	"./user.svg": 194,
+	"./wallet.svg": 101,
+	"./watch.svg": 195,
+	"./weeding.svg": 196,
+	"./whatsapp_round.svg": 102,
+	"./wholesalecart_icon.svg": 197,
+	"./wholesalecart_logo.svg": 198,
+	"./wholesalecart_logo2.svg": 199,
+	"./wholesalecart_logo3.svg": 200,
+	"./wholesalecart_new.svg": 201,
+	"./wishlist.svg": 103,
+	"./women-shoe.svg": 202,
+	"./youtube.svg": 104
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 32;

@@ -1,0 +1,136 @@
+.footerContainer {
+    background-color: #fff;
+    color: #000;
+    border-top: 5px solid var(--primary-color)
+}
+
+.footerContainer a {
+    color: #000 !important;
+    line-height: 20px
+}
+
+.footer {
+    display: grid;
+    padding: 2.5rem 1.5rem 0;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    gap: 2rem;
+    align-items: flex-start
+}
+
+.footerLogo {
+    width: 215px;
+    max-width: 100%
+}
+
+.socialLink img {
+    width: 28px;
+    margin-right: .5rem
+}
+
+.footer .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: .5rem
+}
+
+.footer .info span {
+    font-size: 14px
+}
+
+.footer .info img {
+    width: 16px;
+    margin-right: .175rem
+}
+
+.footer .information div {
+    margin-bottom: .375rem
+}
+
+.footerContainer .companyLogos {
+    padding: .5rem 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.footerContainer .companyLogos .sisters img {
+    width: 100%;
+    margin-right: 1rem;
+    padding: .5rem;
+    margin-bottom: .5rem;
+    height: 80px;
+    object-fit: contain
+}
+
+.footerContainer .companyLogos .sisters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    gap: 1rem;
+    width: 60%
+}
+
+.footerContainer h2,
+.footerContainer h4 {
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    font-size: 18px
+}
+
+.companyLogos {
+    margin-bottom: 20px
+}
+
+.sisters a {
+    padding: 10px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 0 10px #f1e3be;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgb(0 0 0/20%)
+}
+
+.footerAddressInfo {
+    padding-left: 1.5rem
+}
+
+@media (max-width:900px) {
+    .footerTrigger button {
+        width: 100%;
+        border: none;
+        padding: 20px;
+        text-align: left
+    }
+    .footerControl {
+        display: none
+    }
+    .footerHide {
+        display: block
+    }
+    .footerContainer {
+        padding-bottom: 60px
+    }
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem 1.5rem 1.5rem
+    }
+    .footer div {
+        justify-content: center
+    }
+    .footerContainer .companyLogos .sisters {
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .575rem;
+        gap: .575rem
+    }
+    .companyLogos {
+        margin: 1.5rem;
+        padding: 2rem
+    }
+    .footerAddressInfo {
+        padding-left: 0
+    }
+}
+
+/*# sourceMappingURL=9.e37d8655.chunk.css.map */
